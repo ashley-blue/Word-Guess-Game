@@ -30,7 +30,10 @@ if (guess === null) {
     for (var j = 0; j < Titles.length; j++) {
         if (Titles[j] === guess) {
             answerArray[j] = guess;
-            remainingLetters--;
+            remainingLetters--; //decrements remaining letters
         }
     }
 }
+
+alert(answerArray.join(" "));
+alert("The answer is" + Titles);
