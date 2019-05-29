@@ -27,7 +27,7 @@ if (guess === null) {
 } else if (guess.length !== 1) {
     alert("Remember, you can only guess one letter at a time!");
 } else {
-    for (var j = 0; j < word.length; j++) {
+    for (var j = 0; j < Titles.length; j++) {
         if (Titles[j] === guess) {
             answerArray[j] = guess;
             remainingLetters--;
