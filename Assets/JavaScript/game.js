@@ -1,6 +1,8 @@
 var name = prompt("What's your name?");
 console.log("Hello " + name);
 
+var wins = 0;
+
 var movieTitles = [
     "us","insidious","texas chainsaw massacre","shaun of the dead"
 ];
@@ -36,4 +38,4 @@ if (guess === null) {
 }
 
 alert(answerArray.join(" "));
-alert("The answer is" + Titles);
+alert("The answer is" + " " + Titles);
